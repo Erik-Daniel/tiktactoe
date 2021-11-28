@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+table {
+    margin: auto;
+    border-spacing: 0;
+    visibility: hidden;
+}
+td {
+    width: 9vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+}
+td:hover {
+    cursor: pointer;
+}
+.vertical {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+
+
+}
+
+.horizontal {
+    border-bottom: 1px solid white;
+
+}
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: column;
+}
+
+button {
+    width: 10vw;
+    font-size: 2vw;
+    cursor: pointer;
+}
